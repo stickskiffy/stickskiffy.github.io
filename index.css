@@ -1,73 +1,71 @@
+@font-face {
+  font-family: 'Metal Mania';
+  src: url('MetalMania-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
-    background-color: #551A8B;
-    color: #fff;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  background-color: #330033;
+  color: #fff;
+  font-family: 'Metal Mania', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-header {
-    background-color: #330033;
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
+a {
+  color: #fff;
+  text-decoration: none;
 }
 
-header h1 {
-    color: #fff;
-    font-size: 2rem;
-    margin: 0;
+h1, h2 {
+  font-weight: normal;
+  margin: 0;
 }
 
-header img {
-    height: 3rem;
-    width: auto;
+h1 {
+  font-size: 2rem;
 }
 
-main {
-    padding: 2rem;
+h2 {
+  font-size: 1.5rem;
 }
 
-main h2 {
-    color: #fff;
-    font-size: 1.5rem;
-    margin-top: 0;
-}
-
-main p {
-    color: #ddd;
-    margin-bottom: 1rem;
+p {
+  color: #ddd;
+  margin-bottom: 1rem;
 }
 
 button {
-    background-color: #fff;
-    border: none;
-    border-radius: 5px;
-    color: #551A8B;
-    font-size: 1rem;
-    padding: 0.5rem 1rem;
-    text-transform: uppercase;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  color: #330033;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  margin-top: 1rem;
 }
 
 button:hover {
-    background-color: #ddd;
-    color: #551A8B;
-    cursor: pointer;
+  background-color: #ddd;
+  color: #330033;
+  cursor: pointer;
 }
 
 footer {
-    background-color: #330033;
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
+  background-color: #110011;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
 }
 
 footer p {
-    color: #ddd;
-    margin: 0;
+  color: #ddd;
+  margin: 0;
 }
 
 footer img {
-    height: 2rem;
-    width: auto;
+  height: 2rem;
+  width: auto;
 }
